@@ -6,9 +6,9 @@ Endpoints :
 POST localhost:8081/person : ajoute une personne.
 body :
 {
-    "nom": "PSAU",
-    "prenom": "Marc",
-    "date": "24/04/1974"
+    "nom": "nom",
+    "prenom": "prenom",
+    "date": "dd/mm/yyyy"
 }
 
 GET localhost:8081/inscrits : donne la liste des inscrits avec leurs données.
